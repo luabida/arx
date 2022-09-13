@@ -85,6 +85,10 @@ run-test-opt:
 	# it requires a program that reads dot files (e.g. xdot)
 	llvm-as < tests/t.ll | opt -analyze -view-cfg
 
+.PHONY: docs
+docs:
+	doxygen Doxyfile
+	# echo "arxlang.org" > ./build/docs/html/CNAME
 
 # CONDA
 # =====

@@ -48,6 +48,8 @@ If you are proposing a feature:
   - Remember that this is a volunteer-driven project, and that
     contributions are welcome :)
 
+You can also join our community on [Discord](https://discord.gg/CjSr6GNgp7).
+
 ## Get Started!
 
 Ready to contribute? Here’s how to set up `arx` for local development.
@@ -73,7 +75,6 @@ $ git checkout -b name-of-your-bugfix-or-feature
 Now you can make your changes locally.
 
 5.  When you’re done making changes, check the compilation and the tests:
-
 ```bash
 $ make build-with-tests
 $ make run-tests
@@ -128,12 +129,12 @@ be used to help contributors and enforce valid commit messages.
 The table below shows which commit message gets you which release type
 when `semantic-release` runs (using the default configuration):
 
-| Commit message                                                 | Release type     |
-|----------------------------------------------------------------|------------------|
-| `fix(pencil): stop graphite breaking when pressure is applied` | Fix Release      |
-| `feat(pencil): add 'graphiteWidth' option`                     | Feature Release  |
-| `perf(pencil): remove graphiteWidth option`                    | Chore            |
-| `BREAKING CHANGE: The graphiteWidth option has been removed`   | Breaking Release |
+| Commit message                                                     | Release type     |
+|--------------------------------------------------------------------|------------------|
+| ```fix(pencil): stop graphite breaking when pressure is applied``` | Fix Release      |
+| ```feat(pencil): add 'graphiteWidth' option```                     | Feature Release  |
+| ```perf(pencil): remove graphiteWidth option```                    | Chore            |
+| ```BREAKING CHANGE: The graphiteWidth option has been removed```   | Breaking Release |
 
 source:
 <https://github.com/semantic-release/semantic-release/blob/master/README.md#commit-message-format>

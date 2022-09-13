@@ -1,4 +1,5 @@
-# Arx compiler
+# ArxLang
+
 
 Arx compiler aims to provide arrow datatypes as native datatypes.
 
@@ -19,3 +20,9 @@ Extra flags:
   * datetime
 * Change the language design (syntax)
 * Implement arrow datatypes as native datatypes
+
+# Community
+
+## Discord
+
+Join Arx Official [Discord Server](https://discord.gg/CjSr6GNgp7). Ask Arx related questions, stay up-to-date with last releases, help improving the community.
